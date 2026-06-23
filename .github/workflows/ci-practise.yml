@@ -40,6 +40,6 @@ jobs:
         with:
           context: ./frontend
           push: true
-          tags: ${{ vars.DOCKERHUB_USERNAME }}/frontend:latest
+          tags: ${{ vars.DOCKER_USERNAME }}/frontend:latest
 
       
